@@ -2,3 +2,20 @@
 
 In this repository a PyTorch implementation of the superpixel downsampling operation is provided.
 The downsampling operation can be found in the python file [downsample.py](https://github.com/JortdeJong13/superpixel_regularization/blob/main/downsample.py)
+
+Equation 3 downsamples a full resolution feature map
+x with the assignment matrices A before upsampling with
+the same assignment matrices. A pixel in the resulting fea-
+ture map contains the average features of its corresponding
+superpixels. This function is essential to the regularization
+term. Equation 3 consists of two distinct steps. Downsam-
+pling a full resolution feature map x with the assignment
+matrices A. And upsampling the resulting low resolution
+feature map with the same assignment matrices. In [19]
+T. Suzuki provides a PyTorch implementation for the latter
+step. In table 5 we provide a PyTorch implementation to
+downsample a feature map with a given assignment matrix.
+Downsampling a feature map x with the assignment matri-
+ces A is done by recursively downsampling the feature map
+x with A(s′) for s′ ∈ {1, 2, 4, 8}. The provided downsam-
+ple function is compatible with the PyTorch code provided.
