@@ -1,6 +1,6 @@
 # Improving segmentation boundary alignment when training on coarse labels
 
-In this repository a provide the code associated with my master thesis as part of my Master of Science at the Eindhoven University of Technology. [The master thesis](Master_thesis.pdf) itself can be found. Iterations of my master thesis with more experiments intended for publication exist, but are not provided in this repository. The code for the master thesis can be found in the [Superpixel Regularisation](Superpixel_Regularization.ipynb) notebook. The dataset and result files are not present in the repository. 
+In this repository I provide the code associated with my master thesis as part of my Master of Science at the Eindhoven University of Technology. [The master thesis](Master_thesis.pdf) itself can be found. Iterations of my master thesis with more experiments, intended for publication, exist but are not provided in this repository. The code for the master thesis can be found in the [Superpixel Regularisation](Superpixel_Regularization.ipynb) notebook. The dataset and result files are not present in the repository. 
 
 A PyTorch implementation of the superpixel downsampling operation is provided. The downsampling operation can be found in the python file [downsample.py](downsample.py)
 
