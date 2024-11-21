@@ -5,7 +5,7 @@ def downsample(features, assignment):
     Downsamples the features using the assignment matrix.
     Args:
         features (Tensor): Input feature tensor of shape (B, C, H, W).
-        assignment (Tensor): Assignment tensor of shape (B, 36, H, W).
+        assignment (Tensor): Assignment tensor of shape (B, 9, H, W).
     Returns:
         Tensor: Downsampled feature tensor of shape (B, C, H//2, W//2).
     """
