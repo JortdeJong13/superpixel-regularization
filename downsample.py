@@ -1,3 +1,6 @@
+import torch
+import torch.nn.functional as F
+
 eps = 1e-8
 
 def downsample(features, assignment):
